@@ -13,4 +13,4 @@ output = getDirectory("Output directory");
 // get the filenames
 list = getFileList(input);
 for (i = 0; i < list.length; i++)
-        action(input, output, input+list[i], output+list[i]);
+        action(input, output, input+list[i], output+i+1);
